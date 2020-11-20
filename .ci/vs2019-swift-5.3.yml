@@ -1,7 +1,7 @@
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2019-swift-5.3.yml
@@ -94,7 +94,7 @@ resources:
     - repository: tensorflow/swift-apis
       type: github
       name: tensorflow/swift-apis
-      ref: master
+      ref: main
       endpoint: GitHub
 
     - repository: pvieito/PythonKit
@@ -125,14 +125,14 @@ schedules:
   - cron: "0 23 * * *"
     branches:
       include:
-        - master
+        - main
     always: true
     displayName: "Daily (5:00 PM) Build"
 
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2019-swift-5.3.yml

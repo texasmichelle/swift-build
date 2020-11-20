@@ -1,7 +1,7 @@
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/toolchain-linux-x64.yml
@@ -10,7 +10,7 @@ pr:
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/toolchain-linux-x64.yml
@@ -104,7 +104,7 @@ resources:
     - repository: tensorflow/swift-apis
       type: github
       name: tensorflow/swift-apis
-      ref: master
+      ref: main
       endpoint: GitHub
 
     - repository: pvieito/PythonKit
@@ -135,7 +135,7 @@ schedules:
   - cron: "0 * * * *"
     branches:
       include:
-        - master
+        - main
     always: true
     displayName: "Hourly Build"
 

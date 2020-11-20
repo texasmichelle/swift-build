@@ -2,7 +2,7 @@ schedules:
   - cron: "0 */6 * * *"
     branches:
       include:
-        - master
+        - main
     always: true
     displayName: "Automated Build"
 
@@ -84,7 +84,7 @@ resources:
     - repository: tensorflow/swift-apis
       type: github
       name: tensorflow/swift-apis
-      ref: master
+      ref: main
       endpoint: GitHub
 
     - repository: pvieito/PythonKit

@@ -21,18 +21,18 @@ targets, or build on Windows natively without cross-compilation.
 
 | Build | Status |
 | :-: | --- |
-| **CURL** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/CURL?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=11&branchName=master) |
-| **ICU** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/ICU?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=9&branchName=master) |
-| **SQLite3** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/SQLite?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=12&branchName=master) |
-| **TensorFlow** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/tensorflow?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=44&branchName=master) |
-| **XML2** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/XML2?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=10&branchName=master) |
-| **ZLIB** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/zlib?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=16&branchName=master) |
+| **CURL** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/CURL?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=11&branchName=main) |
+| **ICU** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/ICU?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=9&branchName=main) |
+| **SQLite3** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/SQLite?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=12&branchName=main) |
+| **TensorFlow** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/tensorflow?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=44&branchName=main) |
+| **XML2** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/XML2?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=10&branchName=main) |
+| **ZLIB** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/zlib?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=16&branchName=main) |
 
 **Swift 5.2**
 
 | Build | Status |
 | :-: | --- |
-| **VS2019** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2019%20Swift%205.2?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=43&branchName=master) |
+| **VS2019** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2019%20Swift%205.2?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=43&branchName=main) |
 
 <details>
   <summary>Build Contents</summary>
@@ -57,20 +57,20 @@ targets, or build on Windows natively without cross-compilation.
 
 | Build | Status |
 | :-: | --- |
-| **VS2019** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019%205.3?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=53&branchName=master) |
+| **VS2019** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019%205.3?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=53&branchName=main) |
 
 **Swift HEAD (Development)**
 
 | Build | Status |
 | :-: | --- |
-| **macOS** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/macOS?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=15&branchName=master) |
-| **VS2017** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2017?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=1&branchName=master) |
-| **VS2019** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=7&branchName=master) |
-| **VS2017 (Facebook)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2017%20Swift%20(Facebook)?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=5&branchName=master) |
-| **VS2019 (Facebook)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2019%20Swift%20(Facebook)?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=31&branchName=master) |
-| **Ubuntu 18.04 (flowkey)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/Ubuntu%2018.04%20(flowkey)?branchName=master)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=14&branchName=master) |
-| **macOS (TensorFlow)** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/macOS%20Swift%20TensorFlow?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=47&branchName=master) |
-| **VS2019 (TensorFlow)**| [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019%20Swift%20TensorFlow%20(Google)?branchName=master)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=46&branchName=master) |
+| **macOS** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/macOS?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=15&branchName=main) |
+| **VS2017** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2017?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=1&branchName=main) |
+| **VS2019** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=7&branchName=main) |
+| **VS2017 (Facebook)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2017%20Swift%20(Facebook)?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=5&branchName=main) |
+| **VS2019 (Facebook)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/VS2019%20Swift%20(Facebook)?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=31&branchName=main) |
+| **Ubuntu 18.04 (flowkey)** | [![Build Status](https://compnerd.visualstudio.com/swift-build/_apis/build/status/Ubuntu%2018.04%20(flowkey)?branchName=main)](https://compnerd.visualstudio.com/swift-build/_build/latest?definitionId=14&branchName=main) |
+| **macOS (TensorFlow)** | [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/macOS%20Swift%20TensorFlow?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=47&branchName=main) |
+| **VS2019 (TensorFlow)**| [![Build Status](https://dev.azure.com/compnerd/swift-build/_apis/build/status/VS2019%20Swift%20TensorFlow%20(Google)?branchName=main)](https://dev.azure.com/compnerd/swift-build/_build/latest?definitionId=46&branchName=main) |
 
 <details>
   <summary>Build Contents</summary>

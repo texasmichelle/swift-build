@@ -38,7 +38,7 @@ parameters:
 
   - name: VERSION
     type: string
-    default: 'master'
+    default: 'main'
 
 jobs:
   - job: ${{ parameters.host }}

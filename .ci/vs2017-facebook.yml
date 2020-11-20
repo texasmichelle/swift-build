@@ -1,7 +1,7 @@
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2017-facebook.yml
@@ -9,7 +9,7 @@ pr:
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2017-facebook.yml
@@ -98,7 +98,7 @@ resources:
     - repository: tensorflow/swift-apis
       type: github
       name: tensorflow/swift-apis
-      ref: master
+      ref: main
       endpoint: GitHub
 
     - repository: pvieito/PythonKit
@@ -130,7 +130,7 @@ schedules:
   displayName: "Toolchain builds"
   branches:
     include:
-    - master
+    - main
   always: true
 stages:
   - stage: toolchain

@@ -1,7 +1,7 @@
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2017.yml
@@ -93,7 +93,7 @@ resources:
     - repository: tensorflow/swift-apis
       type: github
       name: tensorflow/swift-apis
-      ref: master
+      ref: main
       endpoint: GitHub
 
     - repository: pvieito/PythonKit
@@ -124,13 +124,13 @@ schedules:
   - cron: "0 0 * * *"
     branches:
       include:
-        - master
+        - main
     always: true
     displayName: "Nightly (12:00 AM) Build"
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - .ci/vs2017.yml

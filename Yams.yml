@@ -13,7 +13,7 @@ resources:
 trigger:
   branches:
     include:
-      - master
+      - main
 
 variables:
   toolchain.directory: $(Pipeline.Workspace)/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain
